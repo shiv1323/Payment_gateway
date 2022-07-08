@@ -1,0 +1,59 @@
+.map {
+    display: flex;
+
+}
+
+.top {
+    display: flex;
+    color: #A020F0;
+    place-content: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    margin: 50px auto;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #BDBDBD;
+}
+
+.card__image {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.img_name {
+    width: 400px;
+    height: 254px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.img_name:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.card__copy {
+    padding: 20px;
+}
+
+.btn {
+    padding: 9px 25px;
+    min-width: 140px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    background-color: #333;
+    font-family: "Notto Serif",
+        sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}

@@ -7,7 +7,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+  box-shadow: inset 1px 0px 11px 7px rgb(39 39 39);
+
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#FC466B, #3F5EFB);
+  border-radius: 14px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#7F00FF, #E100FF);
+
+}
+
+*:focus {
+  outline: none
+}
+
+
+\::-webkit-input-placeholder {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+\:-moz-placeholder {
+  color: #FFF;
+  font-weight: 300;
+}
+
+\::-moz-placeholder {
+  color: #FFF;
+  font-weight: 300;
+}
+
+\:-ms-input-placeholder {
+  font-weight: 300;
+  color: #FFF;
 }

@@ -1,0 +1,18 @@
+.footer {
+    margin-top: -1rem;
+    padding: 1rem;
+    background-color: #232323;
+    color: aliceblue;
+    position: fixed;
+    /* bottom: 0;
+    left: 0; */
+    width: 97.9%;
+    text-align: center;
+}
+
+.footer .dark {
+    color: #A020F0;}
+
+.contact {
+    background-color:rgb(0, 0, 0);
+}

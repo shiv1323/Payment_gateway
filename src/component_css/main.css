@@ -1,0 +1,35 @@
+.baf {
+    /* overflow: hidden; */
+    background: #091921;
+    height: 100vh;
+}
+
+.baf::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#e91e63, #ffc107);
+    clip-path: circle(22% at 30% 20%);
+}
+
+.baf::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffffff, #da00ff);
+    clip-path: circle(20% at 70% 90%);
+}
+
+.container__ {
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 10;
+    backdrop-filter: blur(9px);
+    height: 100vh;
+}

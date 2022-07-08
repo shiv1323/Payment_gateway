@@ -1,0 +1,92 @@
+.landing-page {
+    padding-top: 7.5rem;
+}
+
+.landing-page .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.landing-page .content {
+    min-height: 90vh;
+
+    display: flex;
+}
+
+.landing-page .content .text,
+.landing-page .content .iamge {
+    width: 50%;
+    padding: 20px;
+}
+
+.landing-page .content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.landing-page .container .content .text .middle h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.landing-page .content .text .mini-title {
+    font-size: 0.8rem;
+}
+
+.landing-page .content .text .big-title {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.landing-page .content .text .big-title strong {
+    color: #A020F0;
+}
+
+.landing-page .content .text .description {
+    font-size: 0.75rem;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.landing-page .content .text .btn {
+    padding: 9px 25px;
+    /* margin-right: 12px; */
+    min-width: 140px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    background-color: #333;
+    font-family: "Notto Serif",
+        sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.landing-page .content .text .btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.landing-page .content .image {
+    background-image: url('../image/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    border-radius: 14px;
+    margin-left: 4%px;
+}
+
+.landing-page .image>* {
+    position: absolute;
+    color: #fff;
+}
